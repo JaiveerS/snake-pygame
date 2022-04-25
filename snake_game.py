@@ -145,7 +145,7 @@ class SnakeGame:
         elif direction == Direction.UP:
             y -= BLOCK_SIZE
         
-        logger.debug(str(x) + " : " + str(y))
+        # logger.debug(str(x) + " : " + str(y))
         self.head = Point(x,y)
     
     #check for collision to end game
