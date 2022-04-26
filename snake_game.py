@@ -51,8 +51,7 @@ class SnakeGame:
         
         #start head at center of game
         self.head = Point(self.w/2 , self.h/2)
-        self.snake = [self.head, Point(self.head.x-BLOCK_SIZE, self.head.y),
-                      Point(self.head.x-(BLOCK_SIZE),self.head.y)] #array of points snake occupies
+        self.snake = [self.head, Point(self.head.x-BLOCK_SIZE, self.head.y)] #array of points snake occupies
         
         self.score = 0
         self.food = 0
